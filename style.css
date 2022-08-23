@@ -1,0 +1,59 @@
+body{
+    background: rgb(240, 165, 240);
+}
+
+header{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 7%;
+}
+
+section{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);  
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5%;
+}
+
+@media(max-width:800px){
+
+    body{
+        margin: 0;
+    }
+
+    header{
+        font-size: 10px;
+        padding: 0;
+    }
+
+    section{
+        width: 200px;
+    }
+
+    #foto{
+        width: 250px;
+    }
+
+    p{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
